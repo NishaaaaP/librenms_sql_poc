@@ -1,11 +1,13 @@
 
 
-# Description
-Time-Based Blind SQL Injection is a technique used to exploit a vulnerability in a web application's database layer, where an attacker can infer information from the response time of specific queries. By meticulously crafting SQL queries and analyzing the time it takes for the server to respond, an attacker can extract valuable information, including the names of all databases present in the system. This report aims to provide an overview of Time-Based Blind SQL Injection and its application in extracting all databases.
+# Exploit Title: Academy LMS 6.2 - SQL Injection Leads to database extraction
+# Exploit Author: Nisha Thakur
+# Vendor: librenms
+# Vendor Homepage: https://www.librenms.org/
+# Impact: Database Extraction
 
-Understanding Time-Based Blind SQL Injection:
-Time-Based Blind SQL Injection occurs when an application vulnerable to SQL injection lacks visible error messages. Instead, the attacker can execute SQL queries that trigger conditional delays in the application's response time. By analyzing the response duration, the attacker can deduce whether certain conditions, such as the existence of a specific database, are met or not.
- # Proof of Concept
+## POC
+
 Login your account. then copy the coope and paste on below raw request
 ```
 POST /ajax_table.php HTTP/1.1
