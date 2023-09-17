@@ -13,7 +13,7 @@ Impact: Database Extraction
 LinkedIn: https://www.linkedin.com/in/nisha-thakur-32b162277/
 
 ## POC
-Login your account. then copy the coope and paste on below raw request
+Login your account. then copy the cookie and paste on below raw request
 ```
 POST /ajax_table.php HTTP/1.1
 Host: demo.librenms.org
