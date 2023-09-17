@@ -1,6 +1,6 @@
 # librenms_sql_poc
 
-Exploit Title: Academy LMS 6.2 - SQL Injection Leads to database extraction
+Exploit Title: librenms SQL Injection Leads to database extraction
 
 Exploit Author: Nisha Thakur
 
